@@ -1,34 +1,34 @@
-# Entrada de dados
-idade = int(input("Digite a idade em números inteiros: "))
+# Data input
+age = int(input("Type a valid age in positive integer: "))
 
-# Se idade for menor que 0, imprime "Não nasceu".
-if idade < 0:
-    print("Não nasceu.")
-# Se não, verifica outra condicão.
+# If age is less than 0, print "Not born".
+if age < 0:
+    print("Not born.")
+# If not, verify other condition.
 else:
-    # Se idade for menor que 16, imprime "Não vota".
-    if idade < 16:
-        print("Não vota.")
-    # Se não, verifica outra condição.
+    # If age is less than 16, print "Do not vote".
+    if age < 16:
+        print("Do not vote.")
+    # If not, verify other condition.
     else:
-        # Se idade for menor que 18, imprime "Voto opcional".
-        if idade < 18:
-            print("Voto opcional.")
-        # Se não, verifica outra condição.
+        # If age is less than 18, print "Optional vote".
+        if age < 18:
+            print("Optional vote.")
+        # If not, verify other condition.
         else:
-            # Se idade for menor que 61, verifica outras condições dentro do bloco if.
-            if idade < 61:
-                # Se idade for igual a 37, imprime "Ganha prêmio e não vota".
-                if idade == 37:
-                    print("Ganha prêmio e não vota.")
-                # Se não, imprime "Voto obrigatório".
+            # If age is less than 61, verify other conditions in if block.
+            if age < 61:
+                # If age equals 37, print "Wins prize and don't vote".
+                if age == 37:
+                    print("Wins prize and don't vote.")
+                # If not, print "Mandatory vote".
                 else:
-                    print("Voto obrigatório.")
-            # Se não for menor que 61, verifica outra condição.
+                    print("Mandatory vote.")
+            # If not is less than 61, verify other condition.
             else:
-                # Se idade for igual a 74, imprime "Voto obrigatório, e ganha brinde".
-                if idade == 74:
-                    print("Voto obrigatório, e ganha brinde.")
-                # Se não, imprime "Voto opcional".
+                # If age equals 74, print "Mandatory vote, and wins prize".
+                if age == 74:
+                    print("Mandatory vote, e ganha brinde.")
+                # If not, print "Optional vote".
                 else:
-                    print("Voto opcional.")
+                    print("Optional vote.")
